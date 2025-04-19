@@ -1,6 +1,6 @@
 # Dynamic Stochastic Modeling in Economics 🌌📊
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/repo?style=social)
+![GitHub stars](https://img.shields.io/github/stars/jadenfix/repo?style=social)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 ![Economics](https://img.shields.io/badge/Economics-Macro%2FQuant-8A2BE2)
