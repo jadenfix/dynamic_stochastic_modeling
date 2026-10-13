@@ -64,3 +64,16 @@ def egm_policy_iter(k_grid, β=0.96, α=0.65, δ=0.1):
     savings = β * (1 - δ + α * production**(α-1))
     return optimize.interp(k_grid, savings)
 ```
+
+## Reproduce the checked research workflow
+
+```bash
+python -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+python run_research.py 'PS2_512.ipynb'
+```
+
+The self-contained PS2 difference-equation/KDE coursework notebook use the original numerical models and hardcoded observations. The Midterm notebook requires uncommitted `time_series_midterm_2025.xlsx`; other notebooks depend on live FRED series; those empirical lanes are not covered by offline execution. Figures and a cell execution manifest are written to `research-output/`. The runner executes the original code cells, stops on errors, seeds NumPy to 42, and uses a headless plotting backend.
+
+Runnable notebooks: `PS2_512.ipynb`.
